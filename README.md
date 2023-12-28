@@ -1,3 +1,12 @@
+## Fast Run
+```shell
+git clone https://github.com/gabriel-batistuta/monsters_almanac.git
+cd monsters_almanac
+pip install -r requirements.txt
+python manage.py runserver
+x-www-browser http://127.0.0.1:8000/ -o chrome.exe http://127.0.0.1:8000/
+```
+
 ## Comandos pra rodar:
 - cria todo o ecossistema básico do framework 
 ```shell
